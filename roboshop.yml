@@ -1,5 +1,5 @@
 - name: Roboshop Project setup
   hosts: all
-  become: true
+  become: True
   roles:
-    -"{{ app_name }}"
+    - "{{ app_name }}"
